@@ -7,6 +7,8 @@
 
 ![](https://img.shields.io/badge/cool-useless-green.svg) [![Lifecycle:
 experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
+[![R build
+status](https://github.com/coolbutuseless/cryogenic/workflows/R-CMD-check/badge.svg)](https://github.com/coolbutuseless/cryogenic/actions)
 <!-- badges: end -->
 
 `cryogenic` is a package for freezing a function call, modifying its
