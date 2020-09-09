@@ -1,10 +1,11 @@
 Package: cryogenic
 Type: Package
-Title: Construct Calls and Evaluate Later
+Title: Capture Calls, Modify Them, Evaluate Later
 Version: 0.1.0
 Author: mikefc
 Maintainer: mikefc <mikefc@coolbutuseless.com>
-Description: Construct a call to use later.
+Description: Capture function calls for later evaluation, with options to modify
+    the arguments of the call.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
