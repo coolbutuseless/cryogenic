@@ -1,0 +1,11 @@
+Package: cryogenic
+Type: Package
+Title: Construct Calls and Evaluate Later
+Version: 0.1.0
+Author: mikefc
+Maintainer: mikefc <mikefc@coolbutuseless.com>
+Description: Construct a call to use later.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
