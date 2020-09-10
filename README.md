@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# cryogenic
+# cryogenic <img src="man/figures/logo.png" align="right" height=230/>
 
 <!-- badges: start -->
 
@@ -14,22 +14,19 @@ status](https://github.com/coolbutuseless/cryogenic/workflows/R-CMD-check/badge.
 `cryogenic` is a package for freezing a function call, modifying its
 arguments and then evaluating later.
 
-This package is written for a particular use case I have in mind, and
-may not be generally applicable. The functions are all in base R and
-quite small, and the reasoning for having this in a package is
-*consistency* of the interface.
-
-See [rlang](https://cran.r-project.org/package=rlang) for a much more
-comprehensive and generalisable approach.
+This package is written for a particular use case I have in mind, and is
+not trying to be the comprehensive answer to call manipulation in R.
 
 ## My Use Case
 
   - Both the calling environment and evaluation environment are under my
     control.
-      - I am not executing captured calls based on user input.
+      - This package is not targetted at executing captured calls based
+        on possibly hostile user input.
   - Need an R package for this as I need to use this code across
     multiple packages
   - Need eager evaluation of arguments when call is captured
+  - Not concerned with lazy evaluation of the call arguments.
   - Need to be able to update any arguments
       - Need to be able to update an argument to have a value of `NULL`
   - Need to be able to set arguments to a default value if they aren’t
@@ -37,8 +34,6 @@ comprehensive and generalisable approach.
   - Nearly everything is in lists
   - Need to be able to consistently add arbitrary `meta` information as
     an attribute on the call
-  - There are probably other constraints which I’ll add as I think of
-    them
 
 ## What’s in the box
 
